@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Modele: 1-my_list
+"""
 
 class MyList(list):
 	"""
