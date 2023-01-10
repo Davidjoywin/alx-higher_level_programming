@@ -23,4 +23,7 @@ class Square(Rectangle):
         return ("[Square] " + str(self.__size) + "/" + str(self.__size))
 
     def area(self):
-        return (self.__size * self.__size)
+        try:
+            return (int(self.__size) * int(self.__size))
+        except ValueError:
+            return ("it must be integer")
