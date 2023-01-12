@@ -18,7 +18,6 @@ def append_after(filename="", search_string="", new_string=""):
         for text in text_list:
             new_list.append(text)
             if search_string in text:
-                new_string = new_string.strip('\n')
                 new_list.append(new_string)
         new_list = "\n".join(new_list)
 
