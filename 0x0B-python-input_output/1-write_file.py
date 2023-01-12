@@ -4,10 +4,10 @@
 
 def write_file(filename="", text=""):
     """
-	function: write_file
-	filename: file to open
-	text: string to write into the file
-	Returns: None
-	"""
+    function: write_file
+    filename: file to open
+    text: string to write into the file
+    Returns: None
+    """
     with open(filename, 'w', encoding="utf-8") as file:
         return file.write(text)
